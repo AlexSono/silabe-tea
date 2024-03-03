@@ -1,0 +1,120 @@
+body {
+	background: url("../../RecursosCompartidos/Imaxes/pepaPigFamily.jpg") repeat center;
+	}
+   
+   
+    h2 {
+
+        padding: 1em;
+
+        margin: 0em;
+
+    }
+    #contador {
+	    background-color: red;
+	    margin: auto;
+	    text-align: center;
+	    font-size: large;
+	    font-weight: bold;
+	    color: blue;
+	    max-width: 10%;
+	    border: 4px solid green;
+	    border-radius: 3em;
+	    
+	    }
+
+    article {
+
+        background-color: rgb(173, 159, 255);
+
+        border-radius: 1em;
+
+        text-align: center;
+
+        max-width: 50%;
+
+        margin: auto;
+
+    }
+
+ 
+
+    #contenedor {
+
+        display: inline-block;
+
+        margin: 1em;
+
+    }
+
+    #contenedor>div {
+
+        float: left;
+
+        width: 125px;
+
+        height: 120px;
+
+        background-color: #808080;
+        
+        border:1px solid;
+
+    }
+    
+    
+
+#cabeceira {
+	
+		display: inline-block;
+		height:150px;
+		margin:0.5em;
+		max-width: 60%;
+
+
+    #imagenes {
+
+        display: inline-block;
+
+        height:20px;
+
+        width:650px;
+
+        border:1px solid #808080;
+
+        text-align:center;
+
+    }
+
+    #imagenes>img {
+
+        height: 20px;
+
+        margin: 5px;
+
+    }
+
+ 
+
+    .over {
+
+        background-color:#CEF608;
+
+        opacity: 0.5;
+
+    }
+
+ 
+
+    #resultado {
+
+        color:Red;
+
+        font-size:1em;
+
+    }
+
+    .hide {
+
+        display:none;
+
+    }

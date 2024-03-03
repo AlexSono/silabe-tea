@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    background-image: url('./images/background.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.grid {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 800px;
+    height: 200px;
+    border:1px solid;
+    margin-top: 5px;
+}
+
+.element {
+    margin: 4px;
+    max-width: 120px;
+    max-height: 120px;
+    min-width: 120px;
+    min-height: 120px;
+    align-self: center;
+    justify-self: center;
+}
+
+.bordered {
+    border: 3px solid white;
+}
+
+#play {
+    margin-top: 2em;
+    font-size: 3em;
+}
+
+.error {
+    color: crimson;
+}
+#modelo {
+
+	height: 300px;
+	width: 300px:;
+	margin-top:5px;
+	
+	}
+#modelo>img {
+border:3px solid;
+}
+
+#barra {
+		display: block;
+		height: 50px;
+		width: 400px;
+		background:blue;
+		margin:auto;
+		margin-bottom: 5px;
+		
+		
+		}
+#volver {
+	width: 100px;
+	height:100px;
+	margin-top:40px;
+	margin-left:10em;
+	padding:2px;
+	float:left;
+
+	}
+	
+	#cabeceira {
+	
+		display:block;
+		height:200px;
+		width:60%;
+		margin:auto;
+				
+}
