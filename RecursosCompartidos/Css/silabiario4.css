@@ -1,0 +1,141 @@
+body {
+
+	}
+	
+#barra {
+		display: block;
+		height: 50px;
+		width: 400px;
+		background:blue;
+		margin:auto;
+		margin-bottom: 5px;
+		
+		
+		}
+
+#cabeceira {
+	
+		
+		height:170px;
+		margin:0.5em;
+		max-width: 50%;
+		padding: 10px;
+		margin:auto;
+		text-align: center;
+		
+
+}
+   
+   #atras {
+   
+   width: 100px;
+   height: 100px;
+   background: white;
+   float:left;
+   border: 1px solid;
+   }
+   
+   #modelo {
+	width:175px;
+	height: 175px;
+	
+	border: 2px solid;
+	margin:auto;
+   }
+    h2 {
+
+        padding: 1em;
+
+        margin: 0em;
+
+    }
+   
+    article {
+
+        background-color: rgb(173, 159, 255);
+
+        border-radius: 1em;
+
+        text-align: center;
+
+        max-width: 50%;
+
+        margin: auto;
+        
+        padding: 5px;
+
+    }
+
+ 
+
+    #contenedor {
+
+        display: inline-block;
+
+        margin: 1em;
+      
+
+    }
+
+    #contenedor>div {
+
+        float: left;
+
+        width: 125px;
+
+        height: 120px;
+		
+        background-color: #808080;
+		border: 1px solid;
+    }
+    
+    
+
+    #imagenes {
+
+        display: inline-block;
+
+        height:120px;
+
+        width:570px;
+
+        border:1px solid #808080;
+
+        text-align:center;
+
+    }
+
+    #imagenes>img {
+
+        height: 100px;
+
+        margin: 5px;
+        padding: 2px;
+
+    }
+
+ 
+
+    .over {
+
+        background-color:#CEF608;
+
+        opacity: 0.5;
+
+    }
+
+ 
+
+    #resultado {
+
+        color:Red;
+
+        font-size:1em;
+
+    }
+
+    .hide {
+
+        display:none;
+
+    }
