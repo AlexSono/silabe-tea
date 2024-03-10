@@ -307,8 +307,7 @@ function puzzle() {
         }
 
     }
-    
-C:\Users\alexs\Documents\GitHub\gitcraken\silabea\RecursosCompartidos\resolto.html
+
 
 }
 
