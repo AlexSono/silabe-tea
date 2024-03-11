@@ -300,7 +300,7 @@ function puzzle() {
 		setTimeout (esperar, 2000);
 		
 		function esperarVideo (){
-		var targetURL2="../RecursosCompartidos/resolto.html" //URL A LA QUE DIRIGIR.
+		var targetURL2="../../RecursosCompartidos/resolto.html" //URL A LA QUE DIRIGIR.
 		window.location=targetURL2
 		}
 		setTimeout (esperarVideo, 4500);
