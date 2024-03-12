@@ -61,25 +61,25 @@ function barraParaRedireccionar(){
     //card options
     const cardArray = [{
             name: 'bus',
-            img: './../../../RecursosCompartidos/imaxes/bus.jpg'
+            img: './../../../RecursosCompartidos/Imaxes/bus.jpg'
         },
       
         {
             name: 'tren',
-            img: './../../../RecursosCompartidos/imaxes/tren.jpg'
+            img: './../../../RecursosCompartidos/Imaxes/tren.jpg'
         },
         {
             name: 'pan',
-            img: './../../../RecursosCompartidos/imaxes/pan.jpg'
+            img: './../../../RecursosCompartidos/Imaxes/pan.jpg'
         },
       
         {
             name: 'gris',
-            img: './../../../RecursosCompartidos/imaxes/gris.jpg'
+            img: './../../../RecursosCompartidos/Imaxes/gris.jpg'
         },
         {
             name: 'mar',
-            img: './../../../RecursosCompartidos/imaxes/mar.jpg'
+            img: './../../../RecursosCompartidos/Imaxes/mar.jpg'
         }
        
     ]
