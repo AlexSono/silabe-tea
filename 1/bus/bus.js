@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	//http://cosicasdeinformatica.blogspot.com/2011/08/cuenta-atras-en-una-pagina-web.html?m=1
 //contador
 var timeId;
-var targetURL="./../../RecursosCompartidos/nonResolto.html" //URL A LA QUE DIRIGIR. Redirige a sí misma
+var targetURL="./../../../RecursosCompartidos/nonResolto.html" //URL A LA QUE DIRIGIR. Redirige a sí misma
 var inicioBarra=1 //SEGUNDOS A CONTAR
 //var segundoActual = document.redirect.contador.value=cuentaAtras+1
 var actualBarra = inicioBarra+1;
@@ -61,25 +61,25 @@ function barraParaRedireccionar(){
     //card options
     const cardArray = [{
             name: 'bus',
-            img: './../../RecursosCompartidos/imaxes/bus.jpg'
+            img: './../../../RecursosCompartidos/imaxes/bus.jpg'
         },
       
         {
             name: 'tren',
-            img: './../../RecursosCompartidos/imaxes/tren.jpg'
+            img: './../../../RecursosCompartidos/imaxes/tren.jpg'
         },
         {
             name: 'pan',
-            img: './../../RecursosCompartidos/imaxes/pan.jpg'
+            img: './../../../RecursosCompartidos/imaxes/pan.jpg'
         },
       
         {
             name: 'gris',
-            img: './../../RecursosCompartidos/imaxes/gris.jpg'
+            img: './../../../RecursosCompartidos/imaxes/gris.jpg'
         },
         {
             name: 'mar',
-            img: './../../RecursosCompartidos/imaxes/mar.jpg'
+            img: './../../../RecursosCompartidos/imaxes/mar.jpg'
         }
        
     ]
@@ -127,7 +127,7 @@ function barraParaRedireccionar(){
 		setTimeout (esperarAudio,2000);
 		
 		function esperarVideo (){
-		var targetURL2="./../../RecursosCompartidos/resolto.html" //URL A LA QUE DIRIGIR.
+		var targetURL2="./../../../RecursosCompartidos/resolto.html" //URL A LA QUE DIRIGIR.
 		window.location=targetURL2
 		}
 		setTimeout (esperarVideo, 4000);
@@ -144,7 +144,7 @@ function barraParaRedireccionar(){
         } 
         else {
 		  function esperarFin (){
-		var targetURL3="./../../RecursosCompartidos/nonResoltoM.html" //URL A LA QUE DIRIGIR.
+		var targetURL3="./../../../RecursosCompartidos/nonResoltoM.html" //URL A LA QUE DIRIGIR.
 		window.location=targetURL3
 		
 		}
@@ -162,7 +162,7 @@ function barraParaRedireccionar(){
         cardsChosen.push(cardArray[cardId].name)
         cardsChosenId.push(cardId)
         //this.setAttribute('src', cardArray[cardId].img)
-        this.setAttribute('src',"./../../RecursosCompartidos/Pictos/pregunta.png") 
+        this.setAttribute('src',"./../../../RecursosCompartidos/Pictos/pregunta.png") 
         
         if (cardsChosen.length === 1) {
             setTimeout(checkForMatch, 200)
