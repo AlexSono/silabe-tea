@@ -164,7 +164,7 @@ function barraParaRedireccionar(){
         cardsChosen.push(cardArray[cardId].name)
         cardsChosenId.push(cardId)
         //this.setAttribute('src', cardArray[cardId].img)
-        this.setAttribute('src',"./../../recursosCompartidos/Pictos/pregunta.png") 
+        this.setAttribute('src',"./../../RecursosCompartidos/Pictos/pregunta.png") 
         
         if (cardsChosen.length === 1) {
             setTimeout(checkForMatch, 200)
