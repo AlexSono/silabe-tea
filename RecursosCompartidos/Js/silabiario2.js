@@ -44,6 +44,8 @@ function barraParaRedireccionar(){
 		draw(actualBarra);
 		
 	} else {
+		var audio4 = new Audio('../../RecursosCompartidos/volverIntentar.mp3');
+		audio4.play();
 		window.location=targetURL
 		return
 	}
