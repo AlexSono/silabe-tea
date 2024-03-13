@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	//http://cosicasdeinformatica.blogspot.com/2011/08/cuenta-atras-en-una-pagina-web.html?m=1
 //contador
 var timeId;
-var targetURL="./../../recursosCompartidos/nonResolto.html" //URL A LA QUE DIRIGIR. Redirige a sí misma
+var targetURL="./../../RecursosCompartidos/nonResolto.html" //URL A LA QUE DIRIGIR. Redirige a sí misma
 var inicioBarra=1 //SEGUNDOS A CONTAR
 //var segundoActual = document.redirect.contador.value=cuentaAtras+1
 var actualBarra = inicioBarra+1;
@@ -127,7 +127,7 @@ function barraParaRedireccionar(){
 		setTimeout (esperarAudio,2000);
 		
 		function esperarVideo (){
-		var targetURL2="./../../recursosCompartidos/resolto.html" //URL A LA QUE DIRIGIR.
+		var targetURL2="./../../RecursosCompartidos/resolto.html" //URL A LA QUE DIRIGIR.
 		window.location=targetURL2
 		}
 		setTimeout (esperarVideo, 4000);
@@ -143,7 +143,7 @@ function barraParaRedireccionar(){
            // cardsWon.push(cardsChosen)
         } 
         else {
-			var audio4 = new Audio('./../../recursosCompartidos/volverIntentar.mp3');
+			var audio4 = new Audio('./../../RecursosCompartidos/volverIntentar.mp3');
 		audio4.play();
 		  //function esperarFin (){
 		//var targetURL3="./../../recursosCompartidos/nonResoltoM.html" //URL A LA QUE DIRIGIR.
@@ -164,7 +164,7 @@ function barraParaRedireccionar(){
         cardsChosen.push(cardArray[cardId].name)
         cardsChosenId.push(cardId)
         //this.setAttribute('src', cardArray[cardId].img)
-        this.setAttribute('src',"./../../recursosCompartidos/Pictos/pregunta.png") 
+        this.setAttribute('src',"./../../RecursosCompartidos/Pictos/pregunta.png") 
         
         if (cardsChosen.length === 1) {
             setTimeout(checkForMatch, 200)
