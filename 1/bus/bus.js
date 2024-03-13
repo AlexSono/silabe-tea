@@ -34,7 +34,7 @@ function draw(xBarra) {
 
 function barraParaRedireccionar(){
 	if (actualBarra<=280){
-		actualBarra+=28;
+		actualBarra+=14;
 		
 		//var textoSegundos = document.getElementById("Segundos");
 		//textoSegundos.innerHTML =actualBarra;
