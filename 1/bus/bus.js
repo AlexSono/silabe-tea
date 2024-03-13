@@ -145,12 +145,12 @@ function barraParaRedireccionar(){
         else {
 			var audio4 = new Audio('./../../recursosCompartidos/volverIntentar.mp3');
 		audio4.play();
-		  function esperarFin (){
-		var targetURL3="./../../recursosCompartidos/nonResoltoM.html" //URL A LA QUE DIRIGIR.
-		window.location=targetURL3
+		  //function esperarFin (){
+		//var targetURL3="./../../recursosCompartidos/nonResoltoM.html" //URL A LA QUE DIRIGIR.
+		//window.location=targetURL3
 		
-		}
-		setTimeout (esperarFin, 500);
+		//}
+		//setTimeout (esperarFin, 500);
 		  }
         cardsChosen = []
         cardsChosenId = []
