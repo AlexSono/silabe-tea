@@ -143,7 +143,7 @@ function barraParaRedireccionar(){
            // cardsWon.push(cardsChosen)
         } 
         else {
-			var audio4 = new Audio('./../../RecursosCompartidos/volverIntentar.mp3');
+		var audio4 = new Audio('./../../RecursosCompartidos/volverIntentar.mp3');
 		audio4.play();
 		  //function esperarFin (){
 		//var targetURL3="./../../recursosCompartidos/nonResoltoM.html" //URL A LA QUE DIRIGIR.
