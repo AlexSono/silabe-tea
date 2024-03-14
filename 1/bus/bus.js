@@ -34,7 +34,7 @@ function draw(xBarra) {
 
 function barraParaRedireccionar(){
 	if (actualBarra<=280){
-		actualBarra+=28;
+		actualBarra+=14;
 		
 		//var textoSegundos = document.getElementById("Segundos");
 		//textoSegundos.innerHTML =actualBarra;
@@ -143,12 +143,16 @@ function barraParaRedireccionar(){
            // cardsWon.push(cardsChosen)
         } 
         else {
-		  function esperarFin (){
-		var targetURL3="./../../RecursosCompartidos/nonResoltoM.html" //URL A LA QUE DIRIGIR.
-		window.location=targetURL3
+
+		var audio4 = new Audio('volverIntentar.mp3');
+		audio4.play();
+		  //function esperarFin (){
+		//var targetURL3="./../../recursosCompartidos/nonResoltoM.html" //URL A LA QUE DIRIGIR.
+		//window.location=targetURL3
+
 		
-		}
-		setTimeout (esperarFin, 500);
+		//}
+		//setTimeout (esperarFin, 500);
 		  }
         cardsChosen = []
         cardsChosenId = []

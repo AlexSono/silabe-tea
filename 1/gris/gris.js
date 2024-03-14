@@ -3,7 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
 	//http://cosicasdeinformatica.blogspot.com/2011/08/cuenta-atras-en-una-pagina-web.html?m=1
 //contador
 var timeId;
-var targetURL="./../RecursosCompartidos/nonResolto.html" //URL A LA QUE DIRIGIR. Redirige a sí misma
+
+var targetURL="./../../RecursosCompartidos/nonResoltoM.html" //URL A LA QUE DIRIGIR. Redirige a sí misma
+
 var inicioBarra=1 //SEGUNDOS A CONTAR
 //var segundoActual = document.redirect.contador.value=cuentaAtras+1
 var actualBarra = inicioBarra+1;
@@ -34,7 +36,7 @@ function draw(xBarra) {
 
 function barraParaRedireccionar(){
 	if (actualBarra<=280){
-		actualBarra+=28;
+		actualBarra+=14;
 		
 		//var textoSegundos = document.getElementById("Segundos");
 		//textoSegundos.innerHTML =actualBarra;
@@ -61,7 +63,7 @@ function barraParaRedireccionar(){
     //card options
     const cardArray = [{
             name: 'bus',
-            img: './../RecursosCompartidos/Imaxes/bus.jpg'
+            img: './../../RecursosCompartidos/Imaxes/bus.jpg'
         },
       
         {
@@ -143,12 +145,16 @@ function barraParaRedireccionar(){
            // cardsWon.push(cardsChosen)
         } 
         else {
-		  function esperarFin (){
-		var targetURL3="./../../RecursosCompartidos/nonResoltoM.html" //URL A LA QUE DIRIGIR.
-		window.location=targetURL3
+
+		var audio4 = new Audio('./../../RecursosCompartidos/volverIntentar.mp3');
+		audio4.play()
+		  //function esperarFin (){
+		//var targetURL3="./../../recursosCompartidos/nonResoltoM.html" //URL A LA QUE DIRIGIR.
+		//window.location=targetURL3
+
 		
-		}
-		setTimeout (esperarFin, 500);
+		//}
+		//setTimeout (esperarFin, 500);
 		  }
         cardsChosen = []
         cardsChosenId = []
