@@ -1,5 +1,5 @@
 body {
-
+	overscroll-behavior: auto none;
 	}
 	
 #barra {
