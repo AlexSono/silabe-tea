@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	//http://cosicasdeinformatica.blogspot.com/2011/08/cuenta-atras-en-una-pagina-web.html?m=1
 //contador
 var timeId;
-var targetURL="./../../recursosCompartidos/nonResolto.html" //URL A LA QUE DIRIGIR. Redirige a sí misma
+var targetURL="./../../RecursosCompartidos/nonResolto.html" //URL A LA QUE DIRIGIR. Redirige a sí misma
 var inicioBarra=1 //SEGUNDOS A CONTAR
 //var segundoActual = document.redirect.contador.value=cuentaAtras+1
 var actualBarra = inicioBarra+1;
@@ -34,7 +34,7 @@ function draw(xBarra) {
 
 function barraParaRedireccionar(){
 	if (actualBarra<=280){
-		actualBarra+=28;
+		actualBarra+=14;
 		
 		//var textoSegundos = document.getElementById("Segundos");
 		//textoSegundos.innerHTML =actualBarra;
@@ -61,25 +61,25 @@ function barraParaRedireccionar(){
     //card options
     const cardArray = [{
             name: 'bus',
-            img: './../../RecursosCompartidos/imaxes/bus.jpg'
+            img: './../../RecursosCompartidos/Imaxes/bus.jpg'
         },
       
         {
             name: 'tren',
-            img: './../../RecursosCompartidos/imaxes/tren.jpg'
+            img: './../../RecursosCompartidos/Imaxes/tren.jpg'
         },
         {
             name: 'pan',
-            img: './../../RecursosCompartidos/imaxes/pan.jpg'
+            img: './../../RecursosCompartidos/Imaxes/pan.jpg'
         },
       
         {
             name: 'gris',
-            img: './../../RecursosCompartidos/imaxes/gris.jpg'
+            img: './../../RecursosCompartidos/Imaxes/gris.jpg'
         },
         {
             name: 'mar',
-            img: './../../RecursosCompartidos/imaxes/mar.jpg'
+            img: './../../RecursosCompartidos/Imaxes/mar.jpg'
         }
        
     ]
@@ -127,7 +127,7 @@ function barraParaRedireccionar(){
 		setTimeout (esperarAudio,2000);
 		
 		function esperarVideo (){
-		var targetURL2="./../../recursosCompartidos/resolto.html" //URL A LA QUE DIRIGIR.
+		var targetURL2="./../../RecursosCompartidos/resolto.html" //URL A LA QUE DIRIGIR.
 		window.location=targetURL2
 		}
 		setTimeout (esperarVideo, 4000);
@@ -143,12 +143,16 @@ function barraParaRedireccionar(){
            // cardsWon.push(cardsChosen)
         } 
         else {
-		  function esperarFin (){
-		var targetURL3="./../../recursosCompartidos/nonResoltoM.html" //URL A LA QUE DIRIGIR.
-		window.location=targetURL3
+
+		var audio4 = new Audio('./../../RecursosCompartidos/volverIntentar.mp3');
+		audio4.play()
+		  //function esperarFin (){
+		//var targetURL3="./../../recursosCompartidos/nonResoltoM.html" //URL A LA QUE DIRIGIR.
+		//window.location=targetURL3
+
 		
-		}
-		setTimeout (esperarFin, 500);
+		//}
+		//setTimeout (esperarFin, 500);
 		  }
         cardsChosen = []
         cardsChosenId = []
@@ -162,7 +166,7 @@ function barraParaRedireccionar(){
         cardsChosen.push(cardArray[cardId].name)
         cardsChosenId.push(cardId)
         //this.setAttribute('src', cardArray[cardId].img)
-        this.setAttribute('src',"./../../recursosCompartidos/Pictos/pregunta.png") 
+        this.setAttribute('src',"./../../RecursosCompartidos/Pictos/pregunta.png") 
         
         if (cardsChosen.length === 1) {
             setTimeout(checkForMatch, 200)
