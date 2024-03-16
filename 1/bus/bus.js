@@ -144,8 +144,8 @@ function barraParaRedireccionar(){
         } 
         else {
 
-		var audio4 = new Audio('volverIntentar.mp3');
-		audio4.play();
+		var audio4 = new Audio('./../../RecursosCompartidos/volverIntentar.mp3');
+		audio4.play()
 		  //function esperarFin (){
 		//var targetURL3="./../../recursosCompartidos/nonResoltoM.html" //URL A LA QUE DIRIGIR.
 		//window.location=targetURL3
