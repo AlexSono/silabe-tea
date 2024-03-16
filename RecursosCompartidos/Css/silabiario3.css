@@ -1,5 +1,9 @@
 body {
-
+<<<<<<< HEAD
+	overcroll-behavior: auto none;
+=======
+	overscroll-behavior: auto none;
+>>>>>>> AntonSono/patch-65
 	}
 	
 #barra {
