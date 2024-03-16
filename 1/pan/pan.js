@@ -143,12 +143,16 @@ function barraParaRedireccionar(){
            // cardsWon.push(cardsChosen)
         } 
         else {
-		  function esperarFin (){
+		
+		var audio4 = new Audio('./../../RecursosCompartidos/volverIntentar.mp3');
+		audio4.play()
+		
+		/* function esperarFin (){
 		var targetURL3="./../../recursosCompartidos/nonResoltoM.html" //URL A LA QUE DIRIGIR.
 		window.location=targetURL3
 		
 		}
-		setTimeout (esperarFin, 500);
+		setTimeout (esperarFin, 500);*/
 		  }
         cardsChosen = []
         cardsChosenId = []
