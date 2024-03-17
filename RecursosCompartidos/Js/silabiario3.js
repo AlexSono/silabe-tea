@@ -290,11 +290,11 @@ function puzzle() {
 		clearTimeout(timeId);
             resultado.classList.remove("hide");
             
-		var audio1 = new Audio('modeloSon.ogg');
+		var audio1 = new Audio('modeloSon.mp3');
 		audio1.play();
 		
 		function esperar (){           
-            var audio2 = new Audio('bienHecho.ogg');
+            var audio2 = new Audio('bienHecho.mp3');
 		audio2.play();
 		}
 		setTimeout (esperar, 2000);
