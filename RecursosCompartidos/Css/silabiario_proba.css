@@ -64,6 +64,8 @@ body {
         
         padding: 5px;
 
+	overscroll-behavior:contain;
+
     }
 
 
