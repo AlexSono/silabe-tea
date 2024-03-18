@@ -120,6 +120,7 @@ article>div {
 
         text-align:center;
         border-radius: 1em;
+	overscroll-behavior-block:none;
         
 
     }
@@ -171,6 +172,7 @@ p {
     margin: auto;
     background-color: #efff95;
     vertical-align: center;
+	overscroll-behavior-block:none;
 
 
       
