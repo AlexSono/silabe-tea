@@ -73,7 +73,7 @@ body {
 
     }
 article>div {
-	overscroll-behavior-block:none;
+	
 }
 
 
@@ -133,6 +133,7 @@ article>div {
         border: solid 2px;
         border-radius: 1em;
         background-color: white;
+	overscroll-behavior-block:none;
 
     }
 
