@@ -1,11 +1,11 @@
 html {
-	overscroll-behavior:none;
+	overscroll-behavior:content;
 	
 }
 
 body {
 
-	overscroll-behavior:none;
+	overscroll-behavior:content;
 	}
 	
 #barra {
@@ -121,7 +121,7 @@ article>div {
 
         text-align:center;
         border-radius: 1em;
-	overscroll-behavior:none;
+	
         
 
     }
@@ -135,7 +135,7 @@ article>div {
         border: solid 2px;
         border-radius: 1em;
         background-color: white;
-	overscroll-behavior:none;
+	
 
     }
 
@@ -173,10 +173,6 @@ p {
     margin: auto;
 	background-color: #efff95;
  	vertical-align: center;
-	overscroll-behavior:contain;
-
-
-      
-      
+     
             
 }
