@@ -173,6 +173,7 @@ p {
     margin: auto;
 	background-color: #efff95;
  	vertical-align: center;
+	overscroll-behavior:none;
      
             
 }
