@@ -118,7 +118,10 @@ function puzzle() {
 
         e.dataTransfer.effectAllowed = 'move';
 
- 
+ 	//precargamos un audio, pode que varios e os deixamos en pause para executar cando sexa preciso.Segundo 'https://medium.com/@pablo_perez/reproducir-audio-con-js-en-safari-a5a87c771c7a'
+	    	var audio1 = new Audio("../RecursosCompartidos/audio/"+palabraSon);
+	    	audio1.play();
+ 		audio1.pause();
 
         // guardamos el id del elemento que estamos moviendo
 
@@ -133,6 +136,8 @@ function puzzle() {
         e.dataTransfer.dropEffect = 'move';
 
         e.preventDefault();
+
+	
 
     }
 
@@ -164,10 +169,7 @@ function puzzle() {
 
         this.classList.remove("over");
 	    
-	    //precargamos un audio, pode que varios e os deixamos en pause para executar cando sexa preciso.Segundo 'https://medium.com/@pablo_perez/reproducir-audio-con-js-en-safari-a5a87c771c7a'
-	    	var audio1 = new Audio("../RecursosCompartidos/audio/"+palabraSon);
-	    	audio1.play();
- 		audio1.pause();
+	    
  
 
         // obtenemos el id de la imagen que estamos moviendo
