@@ -69,10 +69,12 @@ body {
         
         padding: 5px;
 
-	overscroll-behavior-block:none;	
+	
 
     }
-
+article>div {
+	overscroll-behavior-block:none;
+}
 
 
     #contenedor {
