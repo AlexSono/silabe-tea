@@ -1,10 +1,10 @@
 html {
-	overscroll-behavior:none;
+	
 }
 
 body {
 
-	overscroll-behavior:none;
+	
 	}
 	
 #barra {
@@ -69,7 +69,7 @@ body {
         
         padding: 5px;
 
-	
+	overscroll-behavior:none;	
 
     }
 
