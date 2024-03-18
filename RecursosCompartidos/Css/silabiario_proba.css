@@ -68,8 +68,9 @@ body {
 
 article>div {
 	overscroll-behavior-block: contain;
+}
 	
-
+/*  */
     #contenedor {
 
         display: flex;
