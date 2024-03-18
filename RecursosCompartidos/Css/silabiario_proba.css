@@ -1,11 +1,11 @@
 html {
-	overscroll-behavior:content;
+	overscroll-behavior:none;
 	
 }
 
 body {
 
-	overscroll-behavior:content;
+	overscroll-behavior:none;
 	}
 	
 #barra {
