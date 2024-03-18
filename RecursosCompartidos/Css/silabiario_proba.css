@@ -170,9 +170,9 @@ p {
     border: solid 1px;
     border-radius: 10px;
     margin: auto;
-    background-color: #efff95;
-    vertical-align: center;
-	overscroll-behavior:none;
+	background-color: #efff95;
+ 	vertical-align: center;
+	overscroll-behavior:contain;
 
 
       
