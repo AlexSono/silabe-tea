@@ -67,8 +67,7 @@ body {
     }
 
 
-	
-/*  */
+
     #contenedor {
 
         display: flex;
@@ -150,7 +149,7 @@ body {
 
     .hide {
 
-        display:none;
+       
 
     }
 p {
