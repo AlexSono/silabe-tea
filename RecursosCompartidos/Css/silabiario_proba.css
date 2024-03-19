@@ -1,5 +1,5 @@
 html, body, div, p {
-	overflow: auto;
+	
 	overscroll-behavior:contain;
 	
 }
