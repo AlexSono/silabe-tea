@@ -291,18 +291,18 @@ function puzzle() {
 	
 	  
 		}
-        const resultado=document.getElementById("resultado");
+        //const resultado=document.getElementById("resultado");
 
-        resultado.classList.add("hide");
+        //resultado.classList.add("hide");
 
 
-        const imgs=document.querySelectorAll("#contenedor div");
+        //const imgs=document.querySelectorAll("#contenedor div");
 
-        if (imgs.length!=silabas.length) {
+        //if (imgs.length!=silabas.length) {
 
-            return false;
+          //  return false;
 
-        }
+        //}
 
 
 
