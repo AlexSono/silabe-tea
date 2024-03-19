@@ -327,7 +327,7 @@ function puzzle() {
 	 
 	  if (x===palabraUnion){
 		  clearTimeout(timeId);
-		//window.alert("REMATADO");
+		window.alert("REMATADO");
 		var audio1 = new Audio("../RecursosCompartidos/audio/"+palabraSon);
 		audio1.play();
 	  //window.alert(typeof(x));
