@@ -2,6 +2,60 @@
 
 //window.onload = init();
 
+//http://cosicasdeinformatica.blogspot.com/2011/08/cuenta-atras-en-una-pagina-web.html?m=1
+//contador
+var timeId;
+var targetURL="../../RecursosCompartidos/nonResolto.html" //URL A LA QUE DIRIGIR. Redirige a sí misma
+var inicioBarra=1 //SEGUNDOS A CONTAR
+//var segundoActual = document.redirect.contador.value=cuentaAtras+1
+var actualBarra = inicioBarra+1;
+var xBarra;
+var canvas = document.getElementById("barra");
+var ctx=canvas.getContext("2d");
+	
+	ctx.translate(300, 145);
+	ctx.rotate(Math.PI);
+	ctx.fillStyle="rgb(255,0,0)"
+	ctx.fillRect(10,10,280,120);
+//ctx.fillRect(10, 10, xBarra, 120);
+
+function draw(xBarra) {
+ 
+  if (canvas.getContext) {
+   
+	//const ctx = canvas.getContext("2d");
+
+	
+
+    ctx.fillStyle="rgb(0,0,255)";
+
+    ctx.fillRect(10, 10, xBarra, 120);
+   
+        
+  }
+}
+
+function barraParaRedireccionar(){
+	if (actualBarra<=280){
+		actualBarra+=20;
+		
+		//var textoSegundos = document.getElementById("Segundos");
+		//textoSegundos.innerHTML =actualBarra;
+		draw(actualBarra);
+		
+	} else {
+		window.location=targetURL
+		return
+	}
+	timeId = setTimeout("barraParaRedireccionar()",1000)
+}
+barraParaRedireccionar()
+
+//fin da conta atras
+
+
+
+
 
 //Crear un array de palabras
 
