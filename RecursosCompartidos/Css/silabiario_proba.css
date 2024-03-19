@@ -1,11 +1,12 @@
-html {
-	overscroll-behavior:none;
+html, body, div, p {
+	oveflow: auto;
+	overscroll-behavior:contain;
 	
 }
 
 body {
 
-	overscroll-behavior:none;
+	
 	}
 	
 #barra {
