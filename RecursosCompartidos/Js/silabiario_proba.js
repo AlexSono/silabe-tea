@@ -5,7 +5,7 @@
 //http://cosicasdeinformatica.blogspot.com/2011/08/cuenta-atras-en-una-pagina-web.html?m=1
 //contador
 var timeId;
-var targetURL="../../RecursosCompartidos/nonResolto.html" //URL A LA QUE DIRIGIR. Redirige a sí misma
+var targetURL="../RecursosCompartidos/nonResolto.html" //URL A LA QUE DIRIGIR. Redirige a sí misma
 var inicioBarra=1 //SEGUNDOS A CONTAR
 //var segundoActual = document.redirect.contador.value=cuentaAtras+1
 var actualBarra = inicioBarra+1;
@@ -304,7 +304,7 @@ function puzzle() {
      x=""
         for (e=0;e<silabas.length;e++){
 		var p= document.getElementById("contenedor"+e);
-		var k = p.children[0].innerText;
+		var k = p.innerText;
 		x+=k;
         
    
