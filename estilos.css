@@ -10,6 +10,7 @@ header {
     color: #0ff007;
     padding: 20px;
     text-align: center;
+    margin: 0;
 }
 header h1 {
     margin: 0; /* Elimina el margen predeterminado del h1 */
@@ -58,11 +59,11 @@ button.sugerencias-btn:hover {
 
 @media only screen and (max-width: 480px) {
     header h1 {
-        font-size: 24px;
+        font-size: 14px;
     }
 
     nav a {
-        flex: 1 0 45%;
+        flex: 1 0 25%;
         margin: 5px;
     }
 
