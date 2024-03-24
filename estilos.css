@@ -7,15 +7,18 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
+/* Estilos para el encabezado */
 header {
     background-color: a9fb52; /* un color de prueba*/
     color: white;
     width: 100%;
-    padding: 20px 0;
     text-align: center;
 }
-
+/* Estilos para la imagen del título */
+header img {
+    max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente para mantener la proporción */
+}
 
 nav {
     text-align: end;
