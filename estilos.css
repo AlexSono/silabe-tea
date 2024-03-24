@@ -11,14 +11,14 @@ body {
 header {
     background-color: a9fb52; /* un color de prueba*/
     color: white;
-    width: 75%;
+    width: 50%;
     height: auto; /* Ajusta la altura de la imagen automáticamente para mantener la proporción */
     text-align: center;
 }
 /* Estilos para la imagen del título */
 header img {
     display: flex;
-    max-width: 80%; /* Ajusta la imagen al ancho del contenedor */
+    max-width: 50%; /* Ajusta la imagen al ancho del contenedor */
     height: auto; /* Ajusta la altura de la imagen automáticamente para mantener la proporción */
     margin-right: 10px; /* Espacio entre la imagen y el texto */
 }
