@@ -16,12 +16,14 @@ header {
 }
 /* Estilos para la imagen del título */
 header img {
-    max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    display: flex;
+    max-width: 80%; /* Ajusta la imagen al ancho del contenedor */
     height: auto; /* Ajusta la altura de la imagen automáticamente para mantener la proporción */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
 }
 
 nav {
-    text-align: end;
+    text-align: center;
     margin-top: 20px;
 }
 
