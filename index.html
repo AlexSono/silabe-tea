@@ -1,54 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="es">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SILABIANDO</title>
-    <link rel="stylesheet" href="style.css">
-	  
-<style>
-
-#imaxes {
-	display: flex;
-	margin: auto;
-	text-align: center;
-	background-color:  #FF5733 ;
-	}
-
-#grupos {
-	
-	margin: auto;
-	}
-#nomesTb {
-	
-	margin: auto;
-	border: solid 5px;
-	}
-td {
-	border: solid 10px;}
-h1 {
-	margin : auto;
-	text-align: center;
-	padding: 25px}
-h2 {
-	margin : auto;
-	text-align: center;
-	}
-
-</style>
+    <title>Página Responsiva</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Xogando a Silabear</h1>
-<div id ='imaxes'>
-
-<img id="grupos"src="./RecursosCompartidos/portadaGrupos.jpg" onClick="window.location.href='./Inicio/Grupos/indexGrupos.html';" alt="GRUPiS" title="Palabras por Grupos">
-<img id="grupos"src="./RecursosCompartidos/escoger.png" onclick="window.location.href='./Aleatorio/aleatorio2.html';" alt="SORTEO" title = "Palabras al Azar">
-<script src="aleatorio2.js"></script>
-</div>
-
-
-
+    <header>
+        <h1>Xogando a Silabear</h1>
+    </header>
+    <nav>
+        <a href="#"><img src="./RecursosCompartidos/portadaGrupos.jpg" alt="./Inicio/Grupos/indexGrupos.html"><alt="GRUP@S" title="Palabras por Grupos">
+        <a href="#"><img src="./RecursosCompartidos/escoger.png" alt="./Aleatorio/aleatorio2.html"><alt="SORTEO" title = "Palabras al Az@r">
+    </nav>
+    <button class="sugerencias-btn">Enviar sugerencias por correo</button>
+    <a href="mailto:correo@ejemplo.com" class="correo-btn">Enviar correo</a>
 </body>
 </html>
-	
