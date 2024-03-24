@@ -9,7 +9,7 @@ header {
     background-color: #0ff007;
     color: #0ff007;
     padding: 20px;
-    text-align: center;
+    text-align: end;
     margin: 0;
 }
 header h1 {
@@ -17,7 +17,7 @@ header h1 {
 }
 
 nav {
-    text-align: center;
+    text-align: end;
     margin-top: 20px;
 }
 
