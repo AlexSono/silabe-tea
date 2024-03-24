@@ -7,10 +7,12 @@ body {
 
 header {
     background-color: #0ff007;
-    color: #030000;
+    color: #0ff007;
     padding: 20px;
     text-align: center;
 }
+header h1 {
+    margin: 0; /* Elimina el margen predeterminado del h1 */
 
 nav {
     text-align: center;
@@ -67,3 +69,4 @@ button.sugerencias-btn:hover {
         margin: 10px auto;
     }
 }
+
