@@ -53,7 +53,7 @@ button.sugerencias-btn:hover {
     }
     
     img {
-        max-width: 70%; /* Establece el ancho máximo al 70% del contenedor en pantallas pequeñas */
+        max-width: 55%; /* Establece el ancho máximo al 70% del contenedor en pantallas pequeñas */
       }
     
     nav a {
@@ -67,7 +67,7 @@ button.sugerencias-btn:hover {
         font-size: 14px;
     }
     img {
-        max-width: 45%; /* Establece el ancho máximo al 45% del contenedor en pantallas pequeñas */
+        max-width: 35%; /* Establece el ancho máximo al 35% del contenedor en pantallas pequeñas */
       }
     
     nav a {
