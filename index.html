@@ -16,6 +16,16 @@
 		<script src="aleatorio2.js"></script>
     </nav>
     
-    <a href="silabea.sugerencias@gmail.com" class="correo-btn">Enviar sugerencias</a>
+	<p>Por favor, si tienes alguna sugerencia, no dudes en hacérnoslo saber:</p>
+    <!-- Botón de sugerencias -->
+    <button id="suggestionButton">Enviar Sugerencia</button>
+
+    <!-- Script para manejar el clic del botón -->
+    <script>
+        document.getElementById('suggestionButton').addEventListener('click', function() {
+            // Abre un correo electrónico en el cliente del usuario al hacer clic en el botón
+            window.location.href = 'mailto:silabea.sugerencias@gmail.com?subject=Sugerencia&body=Escribe aquí tu sugerencia';
+        });
+    </script>
 </body>
 </html>
