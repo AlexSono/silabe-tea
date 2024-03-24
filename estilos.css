@@ -11,7 +11,8 @@ body {
 header {
     background-color: a9fb52; /* un color de prueba*/
     color: white;
-    width: 100%;
+    width: 75%;
+    height: auto; /* Ajusta la altura de la imagen automáticamente para mantener la proporción */
     text-align: center;
 }
 /* Estilos para la imagen del título */
