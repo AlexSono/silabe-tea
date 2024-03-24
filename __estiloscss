@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: a9fb52; /* un color de prueba*/
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.enlaces-directos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.enlaces-directos a {
+    margin: 0 15px;
+}
+
+.enlaces-directos img {
+    width: 150px; /* Ajusta esto según necesites */
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados */
+    transition: transform 0.3s ease; /* Animación al hacer hover */
+}
+
+.enlaces-directos img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al hacer hover */
+}

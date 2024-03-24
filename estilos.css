@@ -1,37 +1,69 @@
+/* Estilos Generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 header {
-    background-color: a9fb52; /* un color de prueba*/
-    color: white;
-    width: 100%;
-    padding: 20px 0;
+    background-color: #0ff007;
+    color: #030000;
+    padding: 20px;
     text-align: center;
 }
 
-.enlaces-directos {
-    display: flex;
-    justify-content: center;
+nav {
+    text-align: center;
     margin-top: 20px;
 }
 
-.enlaces-directos a {
-    margin: 0 15px;
+nav a {
+    margin: 0 10px;
 }
 
-.enlaces-directos img {
-    width: 150px; /* Ajusta esto según necesites */
-    height: auto;
-    border-radius: 8px; /* Bordes redondeados */
-    transition: transform 0.3s ease; /* Animación al hacer hover */
+button.sugerencias-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #bb167c;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    transition: background-color 0.3s ease;
 }
 
-.enlaces-directos img:hover {
-    transform: scale(1.1); /* Aumenta el tamaño al hacer hover */
+button.sugerencias-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos Responsivos */
+@media only screen and (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        flex: 1 0 45%;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav a {
+        flex: 1 0 45%;
+        margin: 5px;
+    }
+
+    button.sugerencias-btn {
+        margin: 10px auto;
+    }
 }
