@@ -13,6 +13,7 @@ header {
 }
 header h1 {
     margin: 0; /* Elimina el margen predeterminado del h1 */
+}
 
 nav {
     text-align: center;
